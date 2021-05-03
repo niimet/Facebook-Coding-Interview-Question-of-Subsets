@@ -11,8 +11,6 @@ def ul(n):
             sublists[r] = [s] + sublists[r-2**i]
 
         i += 1
-
-
     return sublists
 
 mylist = [1,2,3,4]
